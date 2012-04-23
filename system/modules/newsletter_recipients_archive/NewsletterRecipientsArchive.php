@@ -27,7 +27,12 @@
  * @license    LGPL
  */
 
-class newsletter_recipients_archive extends Controller
+
+/**
+ * Class NewsletterRecipientsArchive
+ * Contain methods to handle the recipients archive
+ */
+class NewsletterRecipientsArchive extends Controller
 {
 	/**
 	 * generate the label

@@ -40,9 +40,10 @@ array_insert($GLOBALS['BE_MOD']['content'], 5, array
 	)
 ));
 
+
 /**
  * Register hooks
  */
-$GLOBALS['TL_HOOKS']['removeRecipient'][]	= array('newsletter_recipients_archive', 'storeArchiveEntry');
+$GLOBALS['TL_HOOKS']['removeRecipient'][] = array('NewsletterRecipientsArchive', 'storeArchiveEntry');
 
 ?>
